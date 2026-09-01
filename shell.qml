@@ -14,9 +14,9 @@ ShellRoot {
 	property color trans: "#00000000"
 	property string fontFam: "JetBrainsMono Nerd Font"
 
-	//processes
+	// processes
 	property int cpuUsage: 0
-	//property int memUsage: 0
+	// property int memUsage: 0
 	property var lastCpuIdle: 0 
 	property var lastCpuTotal: 0
 	
@@ -137,7 +137,7 @@ ShellRoot {
 		font.pixelSize: 14
 		font.bold: true
 	}
-
+	//text based outline
 	Text {
 	        anchors.bottom: parent.bottom
 		anchors.bottomMargin: -1
