@@ -137,7 +137,7 @@ ShellRoot {
 		font.pixelSize: 14
 		font.bold: true
 	}
-	//text based outline
+	// text based outline
 	Text {
 	        anchors.bottom: parent.bottom
 		anchors.bottomMargin: -1
